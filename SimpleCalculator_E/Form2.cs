@@ -41,6 +41,16 @@ namespace SimpleCalculator_E
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Text = richTextBox1.Text + 4; 
+        }
+
+        private void num3_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Text = richTextBox1.Text + 3;
+        }
+
         private void Form2_Load(object sender, EventArgs e)
         {
 
